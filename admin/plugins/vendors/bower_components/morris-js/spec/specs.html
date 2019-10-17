@@ -1,0 +1,38 @@
+<!doctype html>
+
+<!-- Mirrored from creativethemes.co.in/demo/studioux/admin-dashborad-template/plugins/vendors/bower_components/morris-js/spec/specs.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Jun 2018 10:34:57 GMT -->
+<head>
+  <meta charset="utf-8">
+  <title>morris.js tests</title>
+  <link rel="stylesheet" href="../bower_components/mocha/mocha.html" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../morris.css" type="text/css" media="screen" />
+  <!-- jQuery packaging changed for 2.1.0, so try to load both paths, one will work. -->
+  <script src="../bower_components/jquery/dist/jquery.html"></script>
+  <script src="../bower_components/jquery/jquery.html"></script>
+  <script type="text/javascript" src="../bower_components/raphael/raphael-min.html"></script>
+</head>
+<body>
+  <div id="mocha"></div>
+
+  <script type="text/javascript" src="../bower_components/mocha/mocha-2.html"></script>
+  <script type="text/javascript" src="../bower_components/chai/chai.html"></script>
+  <script type="text/javascript" src="../bower_components/chai-jquery/chai-jquery.html"></script>
+  <script type="text/javascript" src="../bower_components/sinon/index.html"></script>
+  <script type="text/javascript" src="../bower_components/sinon-chai/lib/sinon-chai.html"></script>
+  <script>
+    mocha.setup('bdd');
+    should = chai.should();
+  </script>
+
+  <script type="text/javascript" src="../morris.js"></script>
+  <script type="text/javascript" src="../build/spec.html"></script>
+  <div id="test" style="width: 400px; height: 200px;"></div>
+  <script>
+    if (navigator.userAgent.indexOf('PhantomJS') < 0) {
+      mocha.run();
+    }
+  </script>
+</body>
+
+<!-- Mirrored from creativethemes.co.in/demo/studioux/admin-dashborad-template/plugins/vendors/bower_components/morris-js/spec/specs.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Jun 2018 10:35:02 GMT -->
+</html>

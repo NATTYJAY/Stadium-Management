@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table > tbody > tr > td, .jsgrid-table > tbody > tr > td, .table > tbody > tr > th, .jsgrid-table > tbody > tr > th, .table > tfoot > tr > td, .jsgrid-table > tfoot > tr > td, .table > tfoot > tr > th, .jsgrid-table > tfoot > tr > th, .table > thead > tr > td, .jsgrid-table > thead > tr > td, .table > thead > tr > th, .jsgrid-table > thead > tr > th{color:#555;}
+.panel-heading .float-right{float:right!important}
+.accordion-struct.panel-group .panel .panel-body{border:1px solid #ccc}
+.hidden-lg-menu-main{display:none!important}
+
+@media (max-width:1500px){
+	.table > tbody > tr > td, .jsgrid-table > tbody > tr > td, .table > tbody > tr > th, .jsgrid-table > tbody > tr > th, .table > tfoot > tr > td, .jsgrid-table > tfoot > tr > td, .table > tfoot > tr > th, .jsgrid-table > tfoot > tr > th, .table > thead > tr > td, .jsgrid-table > thead > tr > td, .table > thead > tr > th, .jsgrid-table > thead > tr > th{padding:15px}
+	.widget-weather h4 {
+    font-size: 15px;
+}
+.widget-weather .panel-body .col-lg-6{padding:0 8px}
+.widget-weather .panel-body .col-lg-6 p{line-height:20px;}
+
+.ad-portlet .ad-portlet__body{padding:0 0.2rem 1rem}
+.order-status li {font-size: 14px;}
+}
+@media (max-width:1100px){
+	.widget-weather .panel-body .col-lg-6 {
+    width: 50%; float:left
+}
+.widget-penal{width:100%}
+
+}
+@media (max-width:1025px){
+.hidden-lg-menu-main{display:block!important}
+}
+@media (max-width:992px){
+.res-div{padding:0 0 0 15px}
+
+.widget-penal .col-md-7, .widget-penal .col-md-5 {
+    width: 50%;
+}
+}
+
+@media (max-width:991px){
+.boder-css {width:8%;}
+.order-status li {font-size: 15px;}
+}
+
+@media (max-width:979px){
+.mt-m20{margin-top:20px!important}
+.pagination>li>a, .pagination>li>span{padding:5px 7px}
+.mt-40 {
+    margin-top: 20px !important;
+}
+.widget-penal .col-md-7, .widget-penal .col-md-5 {
+    width:100%;
+	padding:0 0 0 15px
+}
+.table-responsive{border:1px solid #cccccc}
+
+.custom-setting .col-md-4{width:50%}
+.card-view{margin-bottom:15px}
+.chat-cmplt-wrap .recent-chat-box-wrap{right:-290px}
+ .chat-cmplt-wrap.chat-box-slide .chat-box-wrap {left:-290px}
+ .fixed-sidebar-right, .setting-panel{width:290px}
+ .recent-chat-wrap .chat-content .friend .friend-msg-wrap .msg{margin-left:75px}
+  .recent-chat-wrap p{line-height:20px; font-size:13px;}
+  .recent-chat-wrap .chat-content .self .self-msg-wrap .msg{margin-left:90px}
+  .message-nicescroll-bar .dropdown-menu a {
+    padding: 0px 0;
+}
+.page-wrapper{min-height:1px!important; padding-bottom:0}
+.footer{position:relative}
+
+.container-fluid.pt-25{padding-top:10px!important}
+.jq-toast-wrap{width:230px;}
+.demo-popover .popover{width:48%;     max-width: 48%;}
+.date-time-inline .mb-50 ,.date-time-inline .mb-25{margin:0!important}
+.date-time-inline .mb-40 {
+    margin-bottom: 10px !important;
+}
+}
+@media (min-width:767px){
+.hidden-lg-menu{display:none!important}
+}
+@media (max-width:767px){
+
+.top-action-left{padding:0 0 15px 0}
+.top-action-right .text-right{text-align:left!important;}
+.top-action-right{padding:0}
+.widget-weather .col-lg-5, .widget-weather .col-lg-7{width:50%}
+.foo-mobile small{display:none}
+.min-ht-600{min-height:600px}
+.card-invoice, .text-right{text-align:center!important}
+.card-invoice .card-header {background-color: transparent;  border-bottom: none; padding: 15px 10px;}
+.login-box{position: relative; width: 90%; margin: 0 auto;}
+.card-block {padding-bottom: 0.25rem;}
+.task-board{margin:0}
+.login-box .social{margin-bottom:10px;}
+.login-box{padding-bottom:15px}
+.foo-mobile #demo-input-search2{margin-top:5px}
+.jsgrid-pager-nav-button {padding: .2em .1em;}
+.jsgrid-pager-page, .jsgrid-pager-page a {padding: 5px 3px;}
+.ms-container{width:100%}
+.custom-dropdowns .col-sm-4{width:100%}
+.custom-dropdowns .col-sm-4 .form-group.mb-0{margin-bottom:15px!important}
+.icon-colored{margin:1.1rem 0.5rem}
+.control-label.mb-10{margin-top:10px!important; margin-bottom:5px!important }
+.glyphs.character-mapping li{width:60px}
+.glyphs.character-mapping .icon{margin:10px}	
+.icon-colored-lg-2{margin:1rem 0.7rem; width:60px; height:60px}
+.icon-colored-lg-1 {height: 55px; width: 55px; margin: 0.8rem;}
+.demo-popover .popover{width:100%; max-width:100%; margin:10px 0}
+.mobile-none{display:none}
+.footer .pull-left, .footer .pull-right{width:100%; float:none!important; text-align:center}	
+.panel-heading .pull-right{float:none!important}
+.panel-heading .float-right{float:right!important}
+.order-status li {font-size: 13px;}
+}

@@ -1,0 +1,23 @@
+.calendar-events {
+	padding: 8px 10px;
+	border: 1px solid #ffffff;
+	cursor: move
+}
+.calendar-events:hover {
+	border: 1px dashed rgba(120, 130, 140, 0.13)
+}
+.calendar-events i {
+	margin-right: 8px
+}
+
+.fc-event {
+    border-radius: 0px;
+    border: none;
+    cursor: move;
+    color: #ffffff!important;
+    font-size: 13px;
+    margin: 1px -1px 0 -1px;
+    padding: 5px 5px;
+    text-align: center;
+    background: #1976d2;
+}

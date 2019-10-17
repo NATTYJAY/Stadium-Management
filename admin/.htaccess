@@ -1,0 +1,18 @@
+﻿
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^home/?$    index.php    [NC,L]    # Handle requests for "index"
+RewriteRule    ^search/?$    search-page.php    [NC,L]    # Handle requests for "Searche page"
+RewriteRule    ^([A-Za-z0-9-\-]+)/?$    index.php?page1=$1    [NC,L]    # Process words 
+RewriteRule    ^([A-Za-z0-9-\-]+)/([A-Za-z0-9-\-]+)/?$    ?page1=$1&page2=$2   [NC,L]    # 2 page redirecting
+# RewriteRule ^([A-Za-z0-9-\-\.]+)/([a-zA-Z0-9\-\._]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]{2,3})/([A-Za-z0-9.]+)$ ?page1=$1&email=$2&codeo=$3 [NC,L]
+
+RewriteRule    ^rastar/scan/admin   process/admin_cpu.php   [NC,L]   
+RewriteRule		^normalmin.onboot.js/normalB.js js/bootstrap.min.js [NC,L] 
+RewriteRule		^.اليوم.js/اليوم.غداً fulljs/log.js [NC,L]
+RewriteRule		^قويمثانية app-assets/js/scripts/extensions/block-ui.min.js[NC,L]
+
+RewriteRule		^ليوم/اليوم.غداً fulljs/leave.js [NC,L] 
+RewriteRule		^لي/ام.غداً fulljs/loan.js [NC,L]   
+
+
+#DirectoryIndex home 

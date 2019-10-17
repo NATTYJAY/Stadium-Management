@@ -1,0 +1,36 @@
+<!doctype html>
+
+<!-- Mirrored from creativethemes.co.in/demo/studioux/admin-dashborad-template/plugins/vendors/bower_components/morris-js/spec/viz/test.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Jun 2018 10:45:14 GMT -->
+<head>
+  <!-- jQuery packaging changed for 2.1.0, so try to load both paths, one will work. -->
+  <script src="../../bower_components/jquery/dist/jquery.html"></script>
+  <script src="../../bower_components/jquery/jquery.html"></script>
+  <script src="../../bower_components/raphael/raphael-min.html"></script>
+  <script src="../../morris.js"></script>
+  <link rel="stylesheet" href="../../morris.css">
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: white;
+    }
+    #chart {
+      width: 500px;
+      height: 300px;
+    }
+  </style>
+  <script>
+    function bridge(e) {
+      window.alert(JSON.stringify(e));
+    }
+    window.snapshot = function () {
+      bridge({ fn: "snapshot" });
+    };
+    window.mousemove = function (x, y) {
+      bridge({ fn: "mousemove", x: x, y: y });
+    };
+  </script>
+</head>
+<body>
+<div id="chart"></div>
+</body>
